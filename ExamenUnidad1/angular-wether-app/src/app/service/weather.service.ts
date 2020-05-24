@@ -10,7 +10,7 @@ export class WeatherService {
   URI: string= " ";
 //creamos una instancia usamos un modificador
   constructor(private http:HttpClient) { 
-    this.URI=`https://api.openweathermap.org/data/2.5/weather?appid=${this.ApiKey}&q=`
+    this.URI=`https://api.openweathermap.org/data/2.5/weather?appid=${this.ApiKey}&units=metric&q=`
   }
 
   //creamos un metodo paea tomar los datos donde ponemos 2 parametro Nombre de ciudad y codigo de el pais
