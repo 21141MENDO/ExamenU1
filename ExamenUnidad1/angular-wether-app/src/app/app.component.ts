@@ -45,15 +45,12 @@ export class AppComponent implements OnInit {
       alert('La consulta que pide no es valida');
 
     }
-    this.getWeather(nc.value,cc.value)
-    //console.log(nc.value,cc.value);
-    nc.value='';
-    cc.value='';
+   
     nc.focus()
 
     return false;
   }
 
-  //title = ' ';
+
 
 }
